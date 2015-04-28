@@ -1,0 +1,56 @@
+/******************************************************************************/
+/* Universal Mixins */
+/******************************************************************************/
+
+// Viewport. Defaults: (@width: device-width, @zoom: 1.0)
+// These should have the same values as the meta viewport tag.
+.viewport;
+
+// Selection. Defaults: (@bg-color: @link-color, @text-color: @text-color)
+.selection;
+
+// Input placeholder text color. In case you want to change the browser default.
+// .placeholder-color(#333);
+
+// @font-face mixin. Values: @font-name, @font-path, @weight, @style.
+// .font-face(Louis, '../fonts/louisbold-webfont');
+
+// ****************************************************************************/
+// In-class Mixins, extendable */
+// ****************************************************************************/
+
+// REM font-sizes. Pixel values will be converted to REM, with pixel fallback.
+//.font-size();
+
+// Image replacement. Set a background image, width, height
+// and display block or inline-block for the element.
+//.ir all;
+
+// Hide visually, but let available for screenreaders.
+//.visuallyhidden;
+
+// CSS transitions. Default: all 0.3s ease-out;
+//.transition;
+
+// Cross browser opacity. Use values between 0 and 1.
+//.opacity(.5);
+
+
+.goto-content {
+  &:extend(.visuallyhidden);
+
+  &:focus{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    left: 0;
+    top: 0;
+    clip: auto;
+    padding: 1em 1.2em;
+  }
+}
+
+a,
+button {
+  .transition;
+}
