@@ -1,0 +1,20 @@
+@pkgs-path: 'node_modules';
+
+@import (less) '@{pkgs-path}/normalize.css/normalize.css';
+
+// Using bootstrap? Uncomment the lines below.
+@bootstrap-path: '@{pkgs-path}/bootstrap/less';
+@import 'vendor/_bootstrap.less';
+
+// Variables partial. To override bootstrap's or use your own variables.
+@import "config/_variables.less";
+
+// Default partials. Don't mess with these!
+@import "config/_mixins.less";
+@import "config/_base.less";
+
+// From now on, free territory. Use as much partials as necessary.
+// Write only @import's here.
+
+// Print styles. Have to stay on bottom of stylesheet.
+@import "config/_print.less";
