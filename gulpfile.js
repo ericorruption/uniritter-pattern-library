@@ -30,7 +30,7 @@ gulp.task('css', function() {
         .pipe(plugins.less())
         .pipe(plugins.autoprefixer())
         .pipe(gulp.dest(config.cwd + 'css'))
-        .pipe(plugins.csso())
+        .pipe(plugins.minifyCss())
         .pipe(plugins.rename({ extname: '.min.css' }))
         .pipe(gulp.dest(config.cwd + 'css'))
         .pipe(reload({stream: true}));
