@@ -1,0 +1,23 @@
+{
+  "name": "uniritter-pattern-library",
+  "version": "0.1.0",
+  "cwd": "./",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-csso": "latest",
+    "gulp-file-include": "latest",
+    "gulp-less": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+
+    "bootstrap": "latest",
+    "fastclick": "latest",
+    "font-awesome": "latest",
+    "normalize.css": "latest",
+    "bootstrap-datepicker": "latest"
+  }
+}
