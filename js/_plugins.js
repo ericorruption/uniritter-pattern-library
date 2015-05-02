@@ -1,6 +1,15 @@
 // You can put related scripts in here
 // @@include('../node_modules/fastclick/lib/fastclick.js');
 
+// @@include('../node_modules/bootstrap/js/collapse.js');
+// @@include('../node_modules/bootstrap/js/transition.js');
+
+// @@include('../node_modules/bootstrap/js/alert.js');
+// @@include('../node_modules/bootstrap/js/button.js');
+// @@include('../node_modules/bootstrap/js/carousel.js');
+// @@include('../node_modules/bootstrap/js/dropdown.js');
+// @@include('../node_modules/bootstrap/js/modal.js');
+// @@include('../node_modules/bootstrap/js/tab.js');
 
 // Track JavaScript errors in Google Analytics
 (function(window){
