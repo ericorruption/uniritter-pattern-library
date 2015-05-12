@@ -56,7 +56,7 @@ gulp.task('serve', ['build'], function() {
 
     gulp.watch([config.cwd + 'less/**/*.less'], ['css']);
     gulp.watch([config.cwd + 'js/**/*.dist.js', config.cwd + 'js/**/_*.js'], ['javascript', reload]);
-    gulp.watch([config.cwd + 'pages/*.tpl.html', config.cwd + 'partials/*.html'], ['html', reload]);
+    gulp.watch([config.cwd + 'pages/*.tpl.html', config.cwd + 'partials/**/*.html'], ['html', reload]);
 });
 
 gulp.task('build', ['html', 'css', 'javascript']);
