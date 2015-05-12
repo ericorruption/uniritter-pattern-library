@@ -1,0 +1,4 @@
+{
+  "name": "uniritter-pattern-library",
+  "exclude": ["node_modules","source","partials","less","pages" ]
+}
