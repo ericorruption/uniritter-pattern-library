@@ -18,6 +18,7 @@
     "fastclick": "latest",
     "font-awesome": "latest",
     "normalize.css": "latest",
-    "bootstrap-datepicker": "latest"
+    "bootstrap-datepicker": "latest",
+    "ionicons-pre": "latest"
   }
 }
