@@ -1,0 +1,48 @@
+.carousel-indicators {
+  bottom: auto;
+  top: 105%;
+
+  @media (min-width: @screen-lg-min) {
+    top: auto;
+    bottom: 10px !important;
+    left: 2%;
+    margin-left: 0;
+    width: auto;
+  }
+
+  li {
+    width:  105px;
+    margin: 1px;
+    border: none;
+    border-radius: 0;
+    text-indent: 0;
+    height: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,.4);
+    transition: .2s all ease-out;
+    opacity: .6;
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+
+  .active {
+    width: 105px;
+    height: auto;
+    margin: 1px;
+    opacity: 1;
+  }
+}
+
+.carousel-inner > .item{
+  > img,
+  > a > img {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: @screen-sm-min) {
+  .carousel-indicators {
+    bottom: 20px;
+  }
+}
