@@ -19,6 +19,7 @@
     "font-awesome": "latest",
     "normalize.css": "latest",
     "bootstrap-datepicker": "latest",
+    "Yamm": "geedmo/yamm3",
     "ionicons-pre": "latest"
   }
 }
