@@ -1,0 +1,125 @@
+// Grid example classes
+
+.show-grid {
+  margin-bottom: 15px;
+}
+
+.show-grid [class^="col-"] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eee;
+  background-color: rgba(147,27,29,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(147,27,29,.2);
+}
+
+
+// Gliphycon preview grid
+
+.bs-glyphicons {
+  margin: 0 -10px 20px;
+  overflow: hidden;
+}
+.bs-glyphicons-list {
+  padding-left: 0;
+  list-style: none;
+}
+.bs-glyphicons li {
+  float: left;
+  width: 25%;
+  height: 115px;
+  padding: 10px;
+  font-size: 10px;
+  line-height: 1.4;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #fff;
+}
+.bs-glyphicons .glyphicon,
+.bs-glyphicons .fa,
+.bs-glyphicons .ion {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+.bs-glyphicons .glyphicon-class {
+  display: block;
+  text-align: center;
+  word-wrap: break-word; /* Help out IE10+ with class names */
+}
+.bs-glyphicons li:hover {
+  color: #fff;
+  background-color: @brand-primary;
+}
+
+@media (min-width: @screen-sm-min) {
+  .bs-glyphicons {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .bs-glyphicons li {
+    width: 12.5%;
+    font-size: 12px;
+  }
+}
+
+
+
+// Swatches
+/*
+ * Color swatches
+ *
+ * Color swatches and associated values for our grayscale and brand colors.
+ */
+
+.color-swatches {
+  margin: 0 -5px;
+  overflow: hidden; /* clearfix */
+}
+.color-swatch {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+  border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+  .color-swatch {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Framework colors */
+.color-swatches .gray-darker {
+  background-color: @gray-darker;
+}
+.color-swatches .gray-dark {
+  background-color: @gray-dark;
+}
+.color-swatches .gray {
+  background-color: @gray;
+}
+.color-swatches .gray-light {
+  background-color: @gray-light;
+}
+.color-swatches .gray-lighter {
+  background-color: @gray-lighter;
+}
+.color-swatches .brand-primary {
+  background-color: @brand-primary;
+}
+.color-swatches .brand-success {
+  background-color: @brand-success;
+}
+.color-swatches .brand-warning {
+  background-color: @brand-warning;
+}
+.color-swatches .brand-danger {
+  background-color: @brand-danger;
+}
+.color-swatches .brand-info {
+  background-color: @brand-info;
+}
+

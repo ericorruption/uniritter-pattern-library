@@ -1,0 +1,180 @@
+@@include('_header.html')
+<div class="container-fluid">
+
+    <div class="page-header" id="banner">
+        <h1>Guia de estilo front-end Uniritter</h1>
+        <p class="lead">Pattern library baseado no framework Bootstrap</p>
+    </div>
+
+
+
+    <div class="page-header">
+        <h2 id="grid">Grid system</h2>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            @@include('patterns/grid.html')
+        </div>
+    </div>
+
+
+
+    <div class="page-header">
+        <h2 id="color">Paleta de cores</h2>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            @@include('patterns/color.html')
+        </div>
+    </div>
+
+
+
+    <div class="page-header">
+        <h2 id="type">Tipografia</h2>
+    </div>
+    @@include('patterns/type.html')
+
+
+
+    <div class="page-header">
+        <h2 id="navbar">Barra de navegação principal</h2>
+    </div>
+    @@include('_navbar.html')
+
+
+
+    <div class="page-header">
+        <h2 id="buttons">Botões</h2>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            @@include('patterns/button.html')
+        </div>
+    </div>
+
+
+
+    <div class="page-header">
+        <h2 id="tables">Tabelas</h2>
+    </div>
+    @@include('patterns/table.html')
+
+
+
+    <div class="page-header">
+        <h2 id="forms">Formulários</h2>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            @@include('patterns/form.html')
+        </div>
+    </div>
+
+
+
+    <div class="page-header">
+        <h2 id="nav">Navegação</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 id="nav-tabs">Abas</h2>
+            <div class="bs-component">
+                @@include('patterns/tab.html')
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <h2 id="nav-pills">Pílulas</h2>
+            @@include('patterns/pill.html')
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <h2 id="accordion-tit">Accordion</h2>
+            @@include('patterns/accordion.html')
+        </div>
+
+        <div class="col-lg-4">
+            <h2 id="nav-breadcrumbs">Breadcrumbs</h2>
+            <div class="bs-component">
+                @@include('patterns/breadcrumb.html')
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <h2 id="pagination">Paginação</h2>
+            <div class="bs-component">
+                @@include('patterns/pagination.html')
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="page-header">
+        <h2>Alertas</h2>
+    </div>
+    @@include('patterns/alert.html')
+
+
+
+    <div class="row">
+        <div class="col-lg-4">
+            <h2>Rótulos</h2>
+            <div class="bs-component">
+                @@include('patterns/label.html')
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="page-header">
+        <h2 id="container">Painéis</h2>
+    </div>
+    <div class="bs-component"><div class="row">
+        @@include('patterns/panel.html')
+    </div></div>
+
+
+    <div class="row">
+        <div class="col-lg-2">
+            <div class="page-header">
+                <h2>Modais</h2>
+            </div>
+            @@include('patterns/modal.html')
+        </div>
+
+        <div class="col-lg-3">
+            <div class="page-header">
+                <h2>Calendário</h2>
+            </div>
+            @@include('patterns/datepicker.html')
+        </div>
+
+        <div class="col-lg-7">
+            <div class="page-header">
+                <h2>Imagem destaque</h2>
+            </div>
+            @@include('patterns/hero-image.html')
+        </div>
+    </div>
+
+
+
+    <div class="page-header">
+        <h2>Carrossel</h2>
+    </div>
+    @@include('patterns/carousel.html')
+
+
+
+    <div class="page-header">
+        <h2>Ícones</h2>
+    </div>
+    @@include('patterns/icon.html')
+
+</div>
+
+@@include('_footer.html')
