@@ -1,0 +1,27 @@
+.hero-image{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2.5em;
+
+  &__caption{
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+    min-height: 4em;
+    background: linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,.7) 100%);
+
+    p{
+      font-size: 14px;
+    }
+  }
+
+  &__title{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: @headings-font-family;
+  }
+}

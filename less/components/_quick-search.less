@@ -1,0 +1,40 @@
+.container-fluid--branded{
+  background: @brand-primary;
+  margin-bottom: 2em;
+}
+
+.row-branded{
+  padding-bottom: 2em;
+
+  h2{
+    color: #fff;
+  }
+
+  @media (min-width: @screen-sm-min) and (max-width: @screen-md-max) {
+    padding-top: 5em;
+  }
+}
+
+.form-control{
+  &--negative{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    box-shadow: none;
+    color: #fff;
+    transition: all .2s ease-out;
+
+    + .form-control-feedback{
+      color: #fff;
+    }
+
+    &:focus{
+      border-color: #fff;
+      box-shadow: none;
+    }
+
+    &::-webkit-input-placeholder{
+      color: rgba(255,255,255,.6);
+    }
+  }
+}
