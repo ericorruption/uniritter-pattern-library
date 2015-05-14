@@ -5,10 +5,6 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <!-- <span class="sr-only">Toggle navigation</span> -->
-                    <!-- <span class="icon-bar"></span> -->
-                    <!-- <span class="icon-bar"></span> -->
-                    <!-- <span class="icon-bar"></span> -->
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                     Menu
                 </button>
@@ -17,7 +13,7 @@
                 </a>
             </div>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse navbar-collapse--header" id="bs-example-navbar-collapse-1">
 
                 <form class="navbar-form navbar-right visible-md visible-lg" role="search">
                     <div class="form-group has-feedback">
@@ -28,32 +24,37 @@
                 </form>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="navbar__portal"><a href="#">Vestibular</a></li>
-                    <li class="navbar__exams"><a href="#"><span class="glyphicon glyphicon-user"></span> Portal do aluno</a></li>
-                    <li class="dropdown dropdown--services yamm-fw">
+                    <li class="navbar__exams"><a href="#">Vestibular</a></li>
+                    <li class="navbar__portal"><a href="#"><span class="fa fa-user"></span> Portal do aluno</a></li>
+                    <li class="dropdown dropdown--services">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Serviços <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
                                 <div class="yamm-content">
                                     <div class="row">
-                                        <ul class="col-md-6 list-unstyled">
-                                            <li role="presentation" class="dropdown-header">Para o aluno</li>
-                                            <li><a href="#">Biblioteca</a></li>
-                                            <li><a href="#">Transporte e Estacionamento</a></li>
-                                            <li><a href="#">Estágios e oportunidades</a></li>
-                                            <li><a href="#">Financeiro</a></li>
-                                            <li><a href="#">Formaturas</a></li>
-                                            <li><a href="#">DCE</a></li>
-                                        </ul>
-                                        <ul class="col-md-6 list-unstyled">
-                                            <li role="presentation" class="dropdown-header">Serviços gerais</li>
-                                            <li><a href="#">Alimentação</a></li>
-                                            <li><a href="#">Proficiência e curso de inglês</a></li>
-                                            <li><a href="#">Intercâmbio</a></li>
-                                            <li><a href="#">Editora</a></li>
-                                            <li><a href="#">Livrarias</a></li>
-                                            <li><a href="#">Copystar</a></li>
-                                        </ul>
+                                        <div class="col-sm-6">
+                                            <h4>Para o aluno</h4>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Biblioteca</a></li>
+                                                <li><a href="#">Transporte e Estacionamento</a></li>
+                                                <li><a href="#">Estágios e oportunidades</a></li>
+                                                <li><a href="#">Financeiro</a></li>
+                                                <li><a href="#">Formaturas</a></li>
+                                                <li><a href="#">DCE</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <h4>Serviços gerais</h4>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Alimentação</a></li>
+                                                <li><a href="#">Proficiência e curso de inglês</a></li>
+                                                <li><a href="#">Intercâmbio</a></li>
+                                                <li><a href="#">Editora</a></li>
+                                                <li><a href="#">Livrarias</a></li>
+                                                <li><a href="#">Copystar</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -64,13 +65,13 @@
 
                 <p class="navbar-text navbar-right navbar-phone hidden-sm hidden-md">Central Uniritter <strong>0800 642 4000</strong></p>
 
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-nav--main">
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Graduação <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
+                        <ul class="dropdown-menu dropdown-menu--courses" role="menu">
                             <li class="yamm-content">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <h4>Negócios</h4>
                                         <ul>
                                             <li><a href="#">Administração</a></li>
@@ -79,7 +80,7 @@
                                             <li><a href="#">Marketing</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <h4>Tecnologia da Informação</h4>
                                         <ul>
                                             <li><a href="#">Ciência da Computação</a></li>
@@ -88,7 +89,7 @@
                                             <li><a href="#">Análise e Desenvolvimento de Sistemas</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <h4>Arquitetura e Design</h4>
                                         <ul>
                                             <li><a href="#">Arquitetura e Urbanismo</a></li>
@@ -97,7 +98,7 @@
                                             <li><a href="#">Design de Produto</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <h4>Comunicação</h4>
                                         <ul>
                                             <li><a href="#">Relações Públicas</a></li>
@@ -108,7 +109,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <h4>Engenharia</h4>
                                         <ul>
                                             <li><a href="#">Engenharia Civil</a></li>
@@ -121,7 +122,7 @@
                                         </ul>
                                     </div>
 
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <h4>Saúde</h4>
                                         <ul>
                                             <li><a href="#">Enfermagem</a></li>
@@ -133,7 +134,7 @@
                                             <li><a href="#">Psicologia</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <h4>Ensino</h4>
                                         <ul>
                                             <li><a href="#">História</a></li>
@@ -141,7 +142,7 @@
                                             <li><a href="#">Pedagogia</a></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <h4>Direito</h4>
                                         <ul>
                                             <li><a href="#">Direito</a></li>
@@ -160,6 +161,7 @@
                     <li><a href="#">Notícias</a></li>
                     <li><a href="#">Eventos</a></li>
                     <li><a href="#">Fale conosco</a></li>
+                    <li class="navbar__calendar"><a href="#"><span class="fa fa-calendar"></span> Calendário Acadêmico</a></li>
                 </ul>
             </div>
         </div>
