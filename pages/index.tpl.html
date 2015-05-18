@@ -1,15 +1,16 @@
 @@include('_header.html')
 
-@@include('patterns/carousel.html')
-
-@@include('patterns/acesso-rapido.html')
-
-<main id="main-content" role="main" class="container-fluid">
+<main id="main-content" role="main">
     <h1 class="sr-only">Uniritter</h1>
 
-    <article role="article">
+    @@include('patterns/carousel.html')
 
-    </article>
+    @@include('patterns/acesso-rapido.html')
+
+
+</main>
+
+<aside role="complementary" class="container-fluid">
     <div class="row">
         <div class="col-sm-6 col-md-8">
             <h2>Notícias</h2>
@@ -27,10 +28,6 @@
             <a href="#" class="btn btn-primary">Ver mais eventos</a>
         </div>
     </div>
-</main>
-
-<aside role="complementary">
-
 </aside>
 
 @@include('_footer.html')
