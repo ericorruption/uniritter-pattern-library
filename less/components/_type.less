@@ -14,3 +14,17 @@ h6, .h6{
 .lead{
   font-weight: normal;
 }
+
+.page-header--main{
+  background: @brand-primary;
+  margin-top: 0;
+  padding-top: (@line-height-computed * 2);
+
+  h1{
+    color: #fff;
+
+    @media (min-width: @screen-md-min) {
+      font-size: 60px;
+    }
+  }
+}
