@@ -1,0 +1,92 @@
+@@include('_header.html')
+
+<div class="page-header page-header--main">
+    <div class="container-fluid">
+        <h1>Fale conosco</h1>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <main id="main-content" role="main" class="col-sm-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis omnis hic distinctio amet fugiat dignissimos.</p>
+
+            <p>voluptatem dolorum, asperiores tempore, sequi veritatis numquam ullam harum eveniet vitae at <strong>quibusdam nemo</strong>.</p>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">E-mail</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Ex.: nome@gmail.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="col-sm-2 control-label">Assunto</label>
+                    <div class="col-sm-10">
+                        <select name="" id="subject" class="form-control">
+                            <option value="" checked>Selecione</option>
+                            <option value="1">Sugestão</option>
+                            <option value="2">Dúvida</option>
+                            <option value="3">Elogio</option>
+                            <option value="4">Crítica</option>
+                            <option value="5">Financeiro</option>
+                            <option value="6">Outro</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="col-sm-2 control-label">Mensagem</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="message"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-6">
+                        <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                <strong>Tudo certo!</strong> Recebemos sua mensagem. entraremos em contato em breve. :)
+            </div>
+        </main>
+        <aside role="complementary" class="col-sm-4">
+            <h2>Canais Uniritter</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus accusamus illum tempora quisquam ipsam perferendis</p>
+
+            <hr>
+
+            <a href="#" class="btn btn-success btn-lg">
+                <i class="fa fa-comments"></i>
+                Chat online
+            </a>
+
+            <hr>
+
+            <p class="navbar-phone">
+                Central Uniritter
+                <strong>0800 642 4000</strong>
+            </p>
+
+            <hr>
+
+            <ul class="list-inline list--channels">
+                <li><a href="http://www.facebook.com/UniRitter" class="social-media__link social-media__link--facebook"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="https://twitter.com/UniRitter" class="social-media__link social-media__link--twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://plus.google.com/+uniritter" class="social-media__link social-media__link--google-plus"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="http://www.youtube.com/user/conexaouniritter" class="social-media__link social-media__link--youtube"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="http://instagram.com/uniritter" class="social-media__link social-media__link--instagram"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+            <!-- <a href="#" class="btn btn-danger disabled btn-lg">
+                <i class="fa fa-comments"></i>
+                Chat offline
+            </a> -->
+
+        </aside>
+    </div>
+</div>
+
+@@include('_footer.html')
