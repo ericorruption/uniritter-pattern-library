@@ -1,0 +1,15 @@
+@media (max-width: @screen-xs-max) {
+  .nav-tabs {
+    border-bottom: none;
+
+    > li {
+      float: none;
+
+      &.active > a,
+      &.active>a:focus,
+      &.active>a:hover {
+        border-bottom: 1px solid @nav-tabs-border-color;
+      }
+    }
+  }
+}
