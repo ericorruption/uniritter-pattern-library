@@ -1,0 +1,50 @@
+@@include('_header.html')
+
+<div class="page-header page-header--main">
+    <div class="container-fluid">
+        @@include('patterns/breadcrumb.html')
+        <p class="h1">Notícias</p>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <main id="main-content" role="main" class="col-sm-8 news-content">
+            <h1>Stand up Show exclusivo para entrega dos Presentes da Campanha Amigo Presente</h1>
+            <p class="lead">Bons amigos estudam juntos e se divertem também! </p>
+
+            <p>Quem indicou novos alunos que realizaram a matrícula para este
+            semestre e cumpriu os demais requisitos do regulamento, está super
+            convidado a retirar o seu presente e curtir um Stand Up Comedy Show
+            com o seu amigo indicado no dia 19/05, no Foyer do Campus Zona Sul.</p>
+
+            <p><img src="https://placeimg.com/800/460/people" alt=""></p>
+
+            <p>O evento inicia às 18h com um coffee e a retirada dos presentes.
+            Às 18h30 a galera do Comédia Urbana assume o palco para uma
+            apresentação exclusiva para quem participou efetivamente da campanha.</p>
+
+            <p><strong>Então, anote:</strong> dia 19/05, no Foyer do Prédio A do Campus Zona Sul,
+            retirada de presentes e Stand Up Comedy.</p>
+
+            <p>Quem não puder comparecer, poderá retirar o seu presente no seu
+            Campus de 25 a 29/05.</p>
+
+            <h2 class="h3">Conheça um pouco do Comédia Urbana</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://youtube.com/embed/rziWJLVGwVY"></iframe>
+            </div>
+
+            <hr>
+            <p class="small">Por <a href="#">Uniritter</a>, em <strong>21/05/2015</strong>.</p>
+
+            <!-- disqus -->
+        </main>
+        <aside role="complementary" class="col-sm-4">
+            <h3>Notícias relacionadas</h3>
+            @@include('patterns/news-list.html')
+            <a href="#" class="btn btn-primary">Veja mais notícias</a>
+        </aside>
+    </div>
+</div>
+
+@@include('_footer.html')

@@ -21,9 +21,23 @@ h6, .h6{
   padding-top: (@line-height-computed * 2);
   color: #fff;
 
-  h1{
+  h1, .h1{
     @media (min-width: @screen-md-min) {
       font-size: 60px;
     }
+  }
+}
+
+.news-content{
+  @media (min-width: @screen-md-min) {
+    font-size: 1.2em;
+
+    .small{
+      font-size: 0.75em;
+    }
+  }
+
+  p{
+    margin-bottom: 1em;
   }
 }
