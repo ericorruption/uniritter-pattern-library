@@ -2,7 +2,6 @@
 
 (function ($) {
     'use strict';
-    // do shit
 
-    $('.js-datepicker').datepicker();
+    FastClick.attach(document.body);
 } (jQuery));

@@ -11,8 +11,6 @@
 // @@include('../node_modules/bootstrap/js/modal.js');
 // @@include('../node_modules/bootstrap/js/tab.js');
 
-// @@include('../node_modules/bootstrap-datepicker/js/bootstrap-datepicker.js');
-
 // Track JavaScript errors in Google Analytics
 (function(window){
     var undefined,
