@@ -1,4 +1,6 @@
 # Uniritter pattern library
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ericorruption/uniritter-pattern-library.svg)](https://greenkeeper.io/)
 Uniritter's pattern library based on Bootstrap. This deliverable is part of my design degree's final project.
 
 ## Development
